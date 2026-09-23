@@ -34,5 +34,14 @@ compinit
 . "$HOME/.vite-plus/env"
 # ----- vite-plus -----
 
+# ----- local bin -----
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.fastlane/bin:$PATH"
+# ----- local bin -----
+
+# ----- scripts home -----
+SCRIPTS_HOME="$HOME/workspace/scripts"
+# ----- scripts home -----
+
+# ----- local bin aliases -----
+alias git-clear-pr-comments="$SCRIPTS_HOME/git/git-clear-pr-comments.sh"
+# ----- local bin aliases -----
